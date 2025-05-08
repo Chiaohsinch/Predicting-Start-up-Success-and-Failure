@@ -1,33 +1,82 @@
-# Predicting-Start-up-Success-and-Failure
-This project analyzes U.S. startup data to predict the outcome of companies using financial and temporal features.
+# 🚀 Predicting Start-up Success and Failure
+
+This project analyzes U.S. startup data to predict whether a company will succeed, fail using features like founding date, funding history, and website presence.
+
 
 ---
 
-## 📁 Contents 
+## 🧠 Project Overview
 
-- Data preprocessing (missing value handling, feature creation)
-- Data visualization (category distribution, global map, funding rounds)
-- Model training with Random Forest & XGBoost
-- Class imbalance handling (using class weights and scale_pos_weight)
-- Feature importance analysis
-
----
-
-## 📂 File 
-
-- `作品集01.ipynb`: Main Jupyter notebook with full analysis and modeling steps
+- 🎯 **Goal**: Predict startup outcome (operating, closed, acquired)
+- 🧰 **Tech Stack**: Python, pandas, seaborn, scikit-learn, XGBoost
+- 📦 **Features Used**: Funding amount, rounds, company age, website status
+- ⚖️ **Imbalance Handling**: `class_weight='balanced'` (RF), `scale_pos_weight` (XGBoost)
 
 ---
 
-## 🛠️ Tools Used
+## 🧹 Feature Engineering
 
-- Python (pandas, matplotlib, seaborn, scikit-learn, xgboost)
-- Jupyter Notebook
-- GitHub for version control and sharing
+- `company_age`: Company lifetime (in years)
+- `funding_density`: Total funding / (rounds + 1)
+- `founded_at_missing`: Whether founding date is missing
+- `funding_gap_days`: Time between first and last funding
+- `has_website`: Binary feature for website presence
 
 ---
 
-## 📊 Output
+## 📊 Exploratory Data Analysis (EDA)
 
-The model can classify startup outcomes with interpretable feature contributions, helping stakeholders understand drivers of success or failure.
+### 1. Startup Status Distribution by Category
+> Shows top 10 startup categories with their success, operating, and failure distribution.
+<img src="project1/Categories by Status Group.png" width="700"/>
 
+### 2. Funding Total by Status Group
+> Total funding amount grouped by startup outcome.
+<img src="project1/Funding Total USD by Startup Status Group.png" width="700"/>
+
+### 3. Global Distribution of Startups
+> The U.S. leads globally in number of startups, followed by other key regions.
+<img src="project1/Global dis.png" width="700"/>
+
+---
+
+## 🤖 Model Training & Evaluation
+
+### Models Used
+
+- **Random Forest Classifier**
+  - Handles class imbalance via `class_weight="balanced"`
+  - Feature importance analysis per target class
+- **XGBoost Classifier**
+  - Uses `scale_pos_weight` to boost minority class
+  - Multi-class classification with `softprob` output
+
+---
+
+## 📌 Feature Importance
+
+### 1. XGBoost - All Features
+<img src="project1/Feature Importance(RF).png" width="700"/>
+
+### 2. Random Forest - Success Class
+<img src="project1/Feature Importance(RF success).png" width="700"/>
+
+### 3. Random Forest - Failure Class
+<img src="project1/Feature Importance(RF failure).png" width="700"/>
+
+---
+
+## 📁 Files
+
+- `作品集01.ipynb`: Full notebook with all analysis and modeling
+- `project1/`: Folder containing all visual outputs
+- `README.md`: You’re reading it
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/Chiaohsinch/Predicting-Start-up-Success-and-Failure.git
+cd Predicting-Start-up-Success-and-Failure
+jupyter notebook 作品集01.ipynb
