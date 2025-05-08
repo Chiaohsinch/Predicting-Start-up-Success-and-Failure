@@ -56,19 +56,19 @@ This project analyzes U.S. startup data to predict whether a company will succee
 ## 📌 Feature Importance
 
 ### 1. Random Forest - All Features
-<img src="project1/Feature Importance(RF).png" width="700"/>
+<img src="project1/Feature Importance for Predicting Multiclass classification (rf).png" width="700"/>
 ### 2. XGBoost - All Features
-<img src="project1/Feature Importance(RF).png" width="700"/>
+<img src="project1/Feature Importance for Predicting Multiclass classification (xgb).png" width="700"/>
 
 ### 3. Random Forest - Success Class
-<img src="project1/Feature Importance(RF).png" width="700"/>
+<img src="project1/Feature Importance for Success (rf).png" width="700"/>
 ### 4. XGBoost - Success Class
-<img src="project1/Feature Importance(RF success).png" width="700"/>
+<img src="project1/Feature Importance for Success (xgb).png" width="700"/>
 
 ### 5. Random Forest - Failure Class
-<img src="project1/Feature Importance(RF failure).png" width="700"/>
+<img src="project1/Feature Importance for Failure (rf).png" width="700"/>
 ### 6. XGBoost - Failure Class
-<img src="project1/Feature Importance(RF failure).png" width="700"/>
+<img src="project1/Feature Importance for Failure (xgb).png" width="700"/>
 
 ---
 
