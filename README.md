@@ -55,20 +55,26 @@ This project analyzes U.S. startup data to predict whether a company will succee
 
 ## 📌 Feature Importance
 
-### 1. XGBoost - All Features
+### 1. Random Forest - All Features
+<img src="project1/Feature Importance(RF).png" width="700"/>
+### 2. XGBoost - All Features
 <img src="project1/Feature Importance(RF).png" width="700"/>
 
-### 2. Random Forest - Success Class
+### 3. Random Forest - Success Class
+<img src="project1/Feature Importance(RF).png" width="700"/>
+### 4. XGBoost - Success Class
 <img src="project1/Feature Importance(RF success).png" width="700"/>
 
-### 3. Random Forest - Failure Class
+### 5. Random Forest - Failure Class
+<img src="project1/Feature Importance(RF failure).png" width="700"/>
+### 6. XGBoost - Failure Class
 <img src="project1/Feature Importance(RF failure).png" width="700"/>
 
 ---
 
 ## 📁 Files
 
-- `作品集01.ipynb`: Full notebook with all analysis and modeling
+- `Project01.ipynb`: Full notebook with all analysis and modeling
 - `project1/`: Folder containing all visual outputs
 - `README.md`: You’re reading it
 
@@ -79,4 +85,4 @@ This project analyzes U.S. startup data to predict whether a company will succee
 ```bash
 git clone https://github.com/Chiaohsinch/Predicting-Start-up-Success-and-Failure.git
 cd Predicting-Start-up-Success-and-Failure
-jupyter notebook 作品集01.ipynb
+jupyter notebook Project01.ipynb
