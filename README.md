@@ -30,11 +30,11 @@ This project analyzes U.S. startup data to predict whether a company will succee
 > The U.S. leads globally in number of startups, followed by other key regions.
 <img src="project1/Global dis.png" width="700"/>
 
-### 2. Startup Status Distribution by Category
+### 2. Startup Status Distribution by Category in USA
 > Shows top 10 startup categories with their success, operating, and failure distribution.
 <img src="project1/Categories by Status Group.png" width="700"/>
 
-### 3. Funding Total by Status Group
+### 3. Funding Total by Status Group in USA
 > Total funding amount grouped by startup outcome.
 <img src="project1/Funding Total USD by Startup Status Group.png" width="700"/>
 
