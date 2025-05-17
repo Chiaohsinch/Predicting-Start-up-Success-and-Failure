@@ -90,3 +90,13 @@ This project analyzes U.S. startup data to predict whether a company will succee
 git clone https://github.com/Chiaohsinch/Predicting-Start-up-Success-and-Failure.git
 cd Predicting-Start-up-Success-and-Failure
 jupyter notebook Project01.ipynb
+
+---
+
+## 🧑‍💻 Author
+
+**Cindy Chang**  
+📧 chiaohsc@uci.edu 
+🎓 Master of Science in Business Analytics @ UC Irvine
+
+---
