@@ -2,6 +2,8 @@
 
 This project analyzes U.S. startup data to predict whether a company will succeed, fail using features like founding date, funding history, and website presence.
 
+Data Source: The dataset used in this analysis was obtained from Kaggle.
+Startup Success/Fail Dataset from Crunchbase - available at: [https://www.kaggle.com/datasets/yanmaksi/big-startup-secsees-fail-dataset-from-crunchbase]
 
 ---
 
