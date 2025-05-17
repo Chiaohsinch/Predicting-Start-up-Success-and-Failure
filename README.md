@@ -99,4 +99,3 @@ jupyter notebook Project01.ipynb
 📧 chiaohsc@uci.edu 
 🎓 Master of Science in Business Analytics @ UC Irvine
 
----
