@@ -82,7 +82,7 @@ Startup Success/Fail Dataset from Crunchbase - available at: [https://www.kaggle
 
 - `Project01.ipynb`: Full notebook with all analysis and modeling
 - `project1/`: Folder containing all visual outputs
-- `README.md`: You’re reading it
+
 
 ---
 
